@@ -1,0 +1,32 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "project od the examples sites build on bs4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prescss": "node-sass styles/sass/. -o styles/css/",
+    "scss": "node-sass styles/sass/. --watch --recursive --output styles/css",
+    "jpg": "image-optimize jpg .",
+    "png": "image-optimize png .",
+    "prefix": "postcss styles/css/. --use=autoprefixer --map=false --output=styles/css/style.css"
+  },
+  "author": "Radek",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.7.3",
+    "jquery": "^3.3.1",
+    "postcss": "^7.0.14"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "add"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
